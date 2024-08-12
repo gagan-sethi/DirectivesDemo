@@ -1,0 +1,12 @@
+h1{
+    color:white;
+    background-color:red
+}
+
+.blocked{
+    color:red,
+}
+
+.normal{
+    color:green;
+}
