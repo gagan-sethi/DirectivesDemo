@@ -2,4 +2,5 @@
 <h2>Transforming education, Transforming India</h2>
 {{user}}
 
-    <div *ngFor="let student of students; index as i;"> <img [src]="student.studentImage" height="35" width="35"/> {{student.name}} - {{student.fees}} </div>
+    <div *ngFor="let student of students; index as i;"> 
+        <div *ngIf="student.fees >=0"><img [src]="student.studentImage" height="35" width="35"/> <span [ngClass]="student.fees<=0 ? 'blocked': 'normal'">{{student.name}} - {{student.fees}}</span></div> </div>

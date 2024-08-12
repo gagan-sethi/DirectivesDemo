@@ -4,9 +4,11 @@ h1{
 }
 
 .blocked{
-    color:red,
+    color:red;
+    font-size: large;
 }
 
 .normal{
     color:green;
+    font-size: large;
 }
